@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AESDK", "AESDK.vcxproj", "{BC76930A-F5E7-4132-AF9A-7186156BF2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Debug|x64.ActiveCfg = Debug|x64
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Debug|x64.Build.0 = Debug|x64
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Debug|x86.Build.0 = Debug|Win32
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Release|x64.ActiveCfg = Release|x64
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Release|x64.Build.0 = Release|x64
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Release|x86.ActiveCfg = Release|Win32
+		{BC76930A-F5E7-4132-AF9A-7186156BF2CC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B6B465-AA36-4E60-85DC-B9CF975CCC75}
+	EndGlobalSection
+EndGlobal

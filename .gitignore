@@ -1,3 +1,7 @@
-Build/*
+Build/*.lib
+Build/*.a
 Mac/AESDK.xcodeproj/project.xcworkspace/xcuserdata/*
 Mac/AESDK.xcodeproj/xcuserdata/*
+Win/.vs
+Win/AESDK.vcxproj.user
+Win/x64
