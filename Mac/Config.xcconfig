@@ -1,0 +1,10 @@
+//
+//  config.xcconfig
+//  AESDK
+//
+//  Created by Konstantin Shilyaev on 14.10.2023.
+//
+
+// Please enter Path to Adobe After Effects SDK
+// downloaded from: https://developer.adobe.com/after-effects/
+AESDK_PATH = ../../adobe-ae-sdk

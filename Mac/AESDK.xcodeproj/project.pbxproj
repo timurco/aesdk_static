@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA1B5302ADA274D0060980A /* AEFX_SuiteHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B52C2ADA274C0060980A /* AEFX_SuiteHelper.c */; };
+		AEA1B5312ADA274D0060980A /* Smart_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B52D2ADA274C0060980A /* Smart_Utils.cpp */; };
+		AEA1B5322ADA274D0060980A /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B52E2ADA274C0060980A /* MissingSuiteError.cpp */; };
+		AEA1B5332ADA274D0060980A /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B52F2ADA274D0060980A /* AEGP_SuiteHandler.cpp */; };
+		AEA1B5382ADA28540060980A /* AEFX_ArbParseHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B5352ADA28540060980A /* AEFX_ArbParseHelper.c */; };
+		AEA1B5392ADA28540060980A /* AEGP_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA1B5362ADA28540060980A /* AEGP_Utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEA1B51E2ADA273A0060980A /* libAESDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAESDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA1B52C2ADA274C0060980A /* AEFX_SuiteHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AEFX_SuiteHelper.c; path = "../../adobe-ae-sdk/Examples/Util/AEFX_SuiteHelper.c"; sourceTree = "<group>"; };
+		AEA1B52D2ADA274C0060980A /* Smart_Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Smart_Utils.cpp; path = "../../adobe-ae-sdk/Examples/Util/Smart_Utils.cpp"; sourceTree = "<group>"; };
+		AEA1B52E2ADA274C0060980A /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = "../../adobe-ae-sdk/Examples/Util/MissingSuiteError.cpp"; sourceTree = "<group>"; };
+		AEA1B52F2ADA274D0060980A /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = "../../adobe-ae-sdk/Examples/Util/AEGP_SuiteHandler.cpp"; sourceTree = "<group>"; };
+		AEA1B5352ADA28540060980A /* AEFX_ArbParseHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AEFX_ArbParseHelper.c; path = "../../adobe-ae-sdk/Examples/Util/AEFX_ArbParseHelper.c"; sourceTree = "<group>"; };
+		AEA1B5362ADA28540060980A /* AEGP_Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_Utils.cpp; path = "../../adobe-ae-sdk/Examples/Util/AEGP_Utils.cpp"; sourceTree = "<group>"; };
+		AEA1B53B2ADA29740060980A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		AEA1B53C2ADA2B3D0060980A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEA1B53D2ADA2B470060980A /* Release */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Release; path = ../Build/Release; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA1B51C2ADA273A0060980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA1B5152ADA273A0060980A = {
+			isa = PBXGroup;
+			children = (
+				AEA1B53D2ADA2B470060980A /* Release */,
+				AEA1B53C2ADA2B3D0060980A /* README.md */,
+				AEA1B53B2ADA29740060980A /* Config.xcconfig */,
+				AEA1B5352ADA28540060980A /* AEFX_ArbParseHelper.c */,
+				AEA1B5362ADA28540060980A /* AEGP_Utils.cpp */,
+				AEA1B52C2ADA274C0060980A /* AEFX_SuiteHelper.c */,
+				AEA1B52F2ADA274D0060980A /* AEGP_SuiteHandler.cpp */,
+				AEA1B52E2ADA274C0060980A /* MissingSuiteError.cpp */,
+				AEA1B52D2ADA274C0060980A /* Smart_Utils.cpp */,
+				AEA1B51F2ADA273A0060980A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA1B51F2ADA273A0060980A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA1B51E2ADA273A0060980A /* libAESDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AEA1B51A2ADA273A0060980A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AEA1B51D2ADA273A0060980A /* AESDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA1B5292ADA273A0060980A /* Build configuration list for PBXNativeTarget "AESDK" */;
+			buildPhases = (
+				AEA1B51A2ADA273A0060980A /* Headers */,
+				AEA1B51B2ADA273A0060980A /* Sources */,
+				AEA1B51C2ADA273A0060980A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESDK;
+			productName = AESDK;
+			productReference = AEA1B51E2ADA273A0060980A /* libAESDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA1B5162ADA273A0060980A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AEA1B51D2ADA273A0060980A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AEA1B5192ADA273A0060980A /* Build configuration list for PBXProject "AESDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA1B5152ADA273A0060980A;
+			productRefGroup = AEA1B51F2ADA273A0060980A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA1B51D2ADA273A0060980A /* AESDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA1B51B2ADA273A0060980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA1B5302ADA274D0060980A /* AEFX_SuiteHelper.c in Sources */,
+				AEA1B5312ADA274D0060980A /* Smart_Utils.cpp in Sources */,
+				AEA1B5332ADA274D0060980A /* AEGP_SuiteHandler.cpp in Sources */,
+				AEA1B5322ADA274D0060980A /* MissingSuiteError.cpp in Sources */,
+				AEA1B5382ADA28540060980A /* AEFX_ArbParseHelper.c in Sources */,
+				AEA1B5392ADA28540060980A /* AEGP_Utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEA1B5282ADA273A0060980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA1B53B2ADA29740060980A /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AEA1B52B2ADA273A0060980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA1B53B2ADA29740060980A /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(AESDK_PATH)/Examples/Headers",
+					"$(AESDK_PATH)/Examples/Util",
+					"$(AESDK_PATH)/Examples/Headers/SP",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA1B5192ADA273A0060980A /* Build configuration list for PBXProject "AESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA1B5282ADA273A0060980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA1B5292ADA273A0060980A /* Build configuration list for PBXNativeTarget "AESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA1B52B2ADA273A0060980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA1B5162ADA273A0060980A /* Project object */;
+}
