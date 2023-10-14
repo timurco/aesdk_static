@@ -15,20 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\AfterEffectsSDK\Examples\Util\AEFX_SuiteHelper.c">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="$(AESDK_PATH)\Examples\Util\AEFX_SuiteHelper.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\AfterEffectsSDK\Examples\Util\AEGP_SuiteHandler.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="$(AESDK_PATH)\Examples\Util\AEGP_SuiteHandler.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\AfterEffectsSDK\Examples\Util\AEGP_Utils.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="$(AESDK_PATH)\Examples\Util\AEGP_Utils.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\AfterEffectsSDK\Examples\Util\MissingSuiteError.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="$(AESDK_PATH)\Examples\Util\MissingSuiteError.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\AfterEffectsSDK\Examples\Util\Smart_Utils.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="$(AESDK_PATH)\Examples\Util\Smart_Utils.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
