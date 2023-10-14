@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/timurko/Code/xcode/adobe-ae-sdk/Examples/Util/AEFX_SuiteHelper.c \
+  ../../adobe-ae-sdk/Examples/Util/AEFX_SuiteHelper.h \
+  ../../adobe-ae-sdk/Examples/Headers/AEFX_SuiteHandlerTemplate.h \
+  ../../adobe-ae-sdk/Examples/Headers/AE_Effect.h \
+  ../../adobe-ae-sdk/Examples/Headers/A.h \
+  ../../adobe-ae-sdk/Examples/Headers/adobesdk/config/PreConfig.h \
+  ../../adobe-ae-sdk/Examples/Headers/adobesdk/config/PostConfig.h \
+  ../../adobe-ae-sdk/Examples/Headers/AE_EffectCB.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPBasic.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPTypes.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPConfig.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/PSIntTypes.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPErrorCodes.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPSuites.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPAccess.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPPlugs.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPFiles.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPProps.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPMData.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPPiPL.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/photoshop/config/platform.hpp \
+  ../../adobe-ae-sdk/Examples/Headers/SP/artemis/config/platform.hpp \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPAdapts.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPCaches.h \
+  ../../adobe-ae-sdk/Examples/Headers/SP/SPStrngs.h \
+  ../../adobe-ae-sdk/Examples/Headers/AE_EffectSuites.h \
+  ../../adobe-ae-sdk/Examples/Headers/AE_EffectUI.h \
+  ../../adobe-ae-sdk/Examples/Headers/adobesdk/drawbotsuite/DrawbotSuiteTypes.h \
+  ../../adobe-ae-sdk/Examples/Headers/AE_EffectSuitesOld.h \
+  ../../adobe-ae-sdk/Examples/Headers/adobesdk/DrawbotSuite.h \
+  ../../adobe-ae-sdk/Examples/Headers/adobesdk/config/AdobesdkTypes.h
